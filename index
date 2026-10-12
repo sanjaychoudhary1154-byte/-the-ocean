@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+      <div id="contant">
+        <div id="layer">
+        <h1>THE OCEAN</h1>
+        <P>If you're asking about the ocean, it's the vast body of salt water that covers about 71% of Earth's surface and is divided into five major oceans:</P>
+        <button>EXPLORE MORE</button>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
+
+//css
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/image10/4K-Ocean-wallpaper-features-a-vibrant-coral-reef-seen-through-crystal-clear-ocean-water.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#main #contant{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.395);
+    text-align: center;
+}
+#main #layer{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+}
+#layer h1{
+    font-weight: 400;
+    letter-spacing: 16px;
+    color: aliceblue;
+    
+}
+#layer p{
+    color: aliceblue;
+}
+#layer button{
+    margin-top: 10px;
+    background-color: rgba(240, 248, 255, 0.433);
+    color: aliceblue;
+    
+}
